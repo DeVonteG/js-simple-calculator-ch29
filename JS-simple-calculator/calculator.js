@@ -11,13 +11,11 @@ function calculation(){
     //addition//subtraction//multiplication//division//
     document.getElementById("results").innerHTML=` 
     
-    <p>${num1} + ${num2}= ${sum (num1,num2)}</p>
-    <p>${num1} - ${num2}= ${difference (num1,num2)}</p>
-    <p>${num1} * ${num2}= ${product (num1,num2)}</p>
-    <p>${num1} / ${num2}= ${quotient (num1,num2)}</p>
-    
-    `;
-}
+    <p>Sum = ${num1} + ${num2}= ${sum (num1,num2)}</p>
+    <p>Difference = ${num1} - ${num2}= ${difference (num1,num2)}</p>
+    <p>Product = ${num1} * ${num2}= ${product (num1,num2)}</p>
+    <p>Quotient = ${num1} / ${num2}= ${quotient (num1,num2)}</p>  
+`;}
 
 function sum(a,b){
     return a+b;
